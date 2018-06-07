@@ -23,7 +23,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/orangetweet
+      - .:/app
       - app-gems:/app-gems
 
 volumes:
